@@ -18,9 +18,14 @@ print(meals)
 meals.remove(meals[1])
 print(meals)
 
-meals.remove("Fura da Nono")
-meals.append("Fura da Nono")
+
+meals[-1], meals[3] = meals[3], meals[-1]
+#meals.remove("Fura da Nono")
+#meals.append("Fura da Nono")
 print(meals)
 
-meals.sort()
+#meals = len(meals) // 2
+
+
+sorted(meals)
 print(meals)
